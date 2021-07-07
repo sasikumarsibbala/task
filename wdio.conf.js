@@ -319,9 +319,4 @@ exports.config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-    afterTest: function (test, scenario, { error, duration, passed }) {
-        if (error) {
-          browser.takeScreenshot();
-        }
-      }
 }

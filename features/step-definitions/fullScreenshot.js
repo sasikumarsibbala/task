@@ -3,10 +3,9 @@ import { assert } from 'chai';
 
 
 
-Given('open url{string}',(link) => {
-    link="./explore"
-    browser.url(link);
-    browser.saveScreenshot('/Users/sibbalasasikumar/Desktop/1.png');
+Given('open url{string}',(url) => {
+    browser.url(url);
+    browser.saveScreenshot("Screenshots/1.png");
   //   browser.url(link);
 
   //   // somehow wait for page to load
