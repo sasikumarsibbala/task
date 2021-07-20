@@ -1,6 +1,6 @@
 const {Then } = require('@cucumber/cucumber');
 const { assert } = require('chai');
-Then ("expect new tab opened {string}",(no_of_tabs) =>{
+Then ("I expect a new tab or window is opened {string}",(no_of_tabs) =>{
     const  handles = browser.getWindowHandles();
     no_of_tabs=handles.length
     console.log("no of tabs opened ",no_of_tabs);
