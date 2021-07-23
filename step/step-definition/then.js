@@ -1,5 +1,6 @@
 const {Then } = require('@cucumber/cucumber');
 const { assert } = require('chai');
+const { addFeature } = require('@wdio/allure-reporter').default
 Then ("I expect a new tab or window is opened",() =>{
     const  handles = browser.getWindowHandles();
     no_of_tabs=handles.length

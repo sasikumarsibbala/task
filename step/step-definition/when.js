@@ -1,5 +1,6 @@
 const { When} = require('@cucumber/cucumber');
 const { assert } = require('chai');
+const { addFeature } = require('@wdio/allure-reporter').default
 When("click on the element {string}",(locator) =>{
     var  ad=$(locator);
     ad.click();
