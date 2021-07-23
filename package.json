@@ -4,6 +4,7 @@
   "main": "babel.config.js",
   "dependencies": {
     "@wdio/sync": "^7.7.4",
+    "allure-commandline": "^2.13.8",
     "chai": "^4.3.4",
     "puppeteer": "^10.0.0",
     "wdio-image-comparison-service": "^2.3.0",
