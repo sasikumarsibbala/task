@@ -4,4 +4,4 @@
       
        Given open url "/explore"
        When click on the element "//iframe[@id='google_ads_iframe_/21783347309/marvel.com/explore/ad-1-87_0']"
-       Then I expect a new tab or window is opened "no of tabs"
+       Then I expect a new tab or window is opened 
