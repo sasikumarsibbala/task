@@ -1,4 +1,5 @@
 exports.config = {
+    automationProtocol: 'devtools',
     //
     // ====================
     // Runner Configuration
